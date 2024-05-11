@@ -163,7 +163,7 @@ public class CommandManagerImpl implements CommandManager {
 
     private CommandAPICommand getAboutCommand() {
         return new CommandAPICommand("about").executes((sender, args) -> {
-            AdventureHelper.getInstance().sendMessage(sender, "<#00BFFF>\uD83C\uDFA3 CustomFishing <gray>- <#87CEEB>" + CustomFishingPlugin.getInstance().getVersionManager().getPluginVersion());
+            AdventureHelper.getInstance().sendMessage(sender, "<#00BFFF>\uD83C\uDFA3 钓鱼 <gray>- <#87CEEB>" + CustomFishingPlugin.getInstance().getVersionManager().getPluginVersion());
             AdventureHelper.getInstance().sendMessage(sender, "<#B0C4DE>A fishing plugin that provides innovative mechanics and powerful loot system");
             AdventureHelper.getInstance().sendMessage(sender, "<#DA70D6>\uD83E\uDDEA Author: <#FFC0CB>XiaoMoMi");
             AdventureHelper.getInstance().sendMessage(sender, "<#FF7F50>\uD83D\uDD25 Contributors: <#FFA07A>0ft3n<white>, <#FFA07A>Peng_Lx<white>, <#FFA07A>Masaki<white>, <#FFA07A>g2213swo");
